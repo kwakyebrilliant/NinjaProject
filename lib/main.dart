@@ -10,9 +10,12 @@ class NinjaCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Ninja ID Card'),
-      ),
-    );
+        backgroundColor: Colors.grey[100],
+        appBar: AppBar(
+          title: const Text('Ninja ID Card'),
+          centerTitle: true,
+          backgroundColor: Colors.amber[800],
+          elevation: 0.0,
+        ));
   }
 }
